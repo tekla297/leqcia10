@@ -1,0 +1,92 @@
+/* header -  navigation - logo - section one */
+.navigation, ul, .nav-li{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+.logo, .header{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-around;
+}
+.nav-li{
+    margin-right: 102px;
+    font-size: 20px;
+}
+.header{
+    margin-top: 52px;
+}
+
+/* section three - img */
+
+.img-size{
+    max-width: 1540px;
+    width: 100%;
+    height: 608px;
+}
+.img-map{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 64px;
+}
+
+/* section three - label - input */
+
+.blancks{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: space-around;
+}
+.boxes{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column-reverse;
+    font-size: 23px;
+    margin: 16px;
+}
+input{
+    width: 732px;
+    height: 71px;
+    margin-top: 16px;
+}
+::placeholder{
+    font-size: 23px;
+}
+form{
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 57px;
+    margin-left: 129px;
+    margin-bottom: 222px;
+}
+.btn{
+    background-color: #2E2E2E;
+    width: 151px;
+    height: 53px;
+    font-size: 21px;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* footer - end block */
+.footer{
+    display: flex;
+    background-color: #2E2E2E;
+    height: 207px;
+    justify-content: space-around;
+    align-items: center;
+}
+.fa-facebook, .fa-instagram{
+    color: white;
+    font-size: 20px;
+}
+.text{
+    color: white;
+    font-size: 20px;
+}

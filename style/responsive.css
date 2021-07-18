@@ -1,0 +1,8 @@
+@media (max-width: 767px){
+    .header, .navigation, ul, .nav-li, .headaer-logo, .logo, .icon-search{
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        margin: 5px;
+    }
+}
